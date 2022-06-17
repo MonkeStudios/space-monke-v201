@@ -101,25 +101,25 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "gapple"
     },
-    "image6": {
-        "data": "hwQQABAAAAAAAADw/w8AAAAAAPC7+wAAAAAAAP////8AAPDMAL+7/AAAPzP8u/v8AP8/M7+7+/zwu7u7v7v7D7+7u7u7+/8Avzszs7u7+wC/MzMz+/v/AL9TNTzzy/sAvzMzw/PP/ADwM8PD8///AABfxcPzz/sAAMA8w//P/AAAAMDMAPD/AA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "Player_2"
-    },
     "image7": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAABAREQAAAAAAMTMzEREAAAAx8TEzMxEAADERMTM/MwEAMREx8zMzAQAxMzPzMzMBADEzM/MzMwEAMfEx8zMzAQAxETEzPzMBADERMTMzuwEAMTMzu7sRAACxu7sREQAAABEREQAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Boss"
     },
     "image4": {
-        "data": "hwQHAAgAAAAAqgoAoKqqAKC7qwCgu6sAoLurAKCqqgAAAAAA",
+        "data": "hwQHAAgAAAAAqgoAoKqqAKC7qwCgu6sAoLurAKCqqgAAqgoA",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "p1_life"
     },
     "image8": {
-        "data": "hwQHAAgAAAAAuwsAsLu7ALAzswCwM7MAsDOzALC7uwAAAAAA",
+        "data": "hwQHAAgAAAAAuwsAsLu7ALAzswCwM7MAsDOzALC7uwAAuwsA",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "p2_life"
+    },
+    "image6": {
+        "data": "hwQQABAAAAAAAADw/w8AAAAAAPC7+wAAAAAAAP////8AAPDMAL+7/AAAPzP8u/v8AP8/M7+7+/zwu7u7v7v7D7+7u7u7+/8Avzszs7u7+wC/MzMz+/v/AL/DPDrzy/sAvzMzo/PP/ADwM6Oj8///AADPrKPzz/sAAKA6o//P/AAAAKCqAPD/AA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Player_2"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",

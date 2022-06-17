@@ -576,25 +576,6 @@ cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 . . . . 4 5 5 5 5 5 5 4 b . . . 
 . . . . . 4 4 4 4 4 4 b . . . . 
 `;
-            case "image6":
-            case "Player_2":return img`
-. . . . . . . f f f f f . . . . 
-. . . . . . f b b b b b f . . . 
-. . . . . f b b b 3 3 3 3 f . . 
-. . . . . f b b 3 3 5 3 3 5 c . 
-. . . . f f b b 3 3 5 3 3 5 c . 
-. . . f 3 3 b b 3 3 3 3 c c 3 c 
-. . . c 3 3 b b 3 3 c 3 3 3 3 c 
-f f . c 3 3 b b b 3 3 c c c c c 
-f b f . c f f b b b 3 3 3 3 f . 
-f b f . f b b b b f f f f f f . 
-f b f f b b b b b b b f f f f . 
-. f f b b b b f b f c c f c c f 
-. . f b b b b f b f b c f b c f 
-. . f b f f f f f f f f f f f f 
-. . f c c c f . . . . . . . . . 
-. . f f f f . . . . . . . . . . 
-`;
             case "image7":
             case "Boss":return img`
 . . . . . . . . . . . . . . . . 
@@ -618,9 +599,9 @@ f b f f b b b b b b b f f f f .
             case "p1_life":return img`
 . . . . . . . 
 . a a a a a . 
-a a b b b a . 
-a a b b b a . 
-a a b b b a . 
+a a b b b a a 
+a a b b b a a 
+a a b b b a a 
 . a a a a a . 
 . . . . . . . 
 . . . . . . . 
@@ -629,12 +610,31 @@ a a b b b a .
             case "p2_life":return img`
 . . . . . . . 
 . b b b b b . 
-b b 3 3 3 b . 
-b b 3 3 3 b . 
-b b 3 3 3 b . 
+b b 3 3 3 b b 
+b b 3 3 3 b b 
+b b 3 3 3 b b 
 . b b b b b . 
 . . . . . . . 
 . . . . . . . 
+`;
+            case "image6":
+            case "Player_2":return img`
+. . . . . . . f f f f f . . . . 
+. . . . . . f b b b b b f . . . 
+. . . . . f b b b 3 3 3 3 f . . 
+. . . . . f b b 3 3 c 3 3 c a . 
+. . . . f f b b 3 3 c 3 3 c a . 
+. . . f 3 3 b b 3 3 3 3 a a 3 a 
+. . . c 3 3 b b 3 3 a 3 3 3 3 a 
+f f . c 3 3 b b b 3 3 a a a a a 
+f b f . c f f b b b 3 3 3 3 f . 
+f b f . f b b b b f f f f f f . 
+f b f f b b b b b b b f f f f . 
+. f f b b b b f b f c c f c c f 
+. . f b b b b f b f b c f b c f 
+. . f b f f f f f f f f f f f f 
+. . f c c c f . . . . . . . . . 
+. . f f f f . . . . . . . . . . 
 `;
         }
         return null;
